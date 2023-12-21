@@ -1,3 +1,4 @@
+[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-7f7980b617ed060a017424585567c406b6ee15c891e84e1186181d67ecf80aa0.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=13278233)
 # Simple Web Design Project
 
 Welcome to our simple web design project! This project is designed to help you get started with HTML, CSS, and JavaScript in an easy-to-understand environment.
