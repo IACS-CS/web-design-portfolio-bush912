@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+
+body {
+  width: 95vw;
+  height: 45.25vw;
+  background: url(computerbg.png);
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.screen {
+  font-family: 'DotGothic16', sans-serif;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  color: #f5f5dc;
+  background: none;
+  max-width: 1000px;
+  width: 57vw; /* Adjust the width as needed */
+  margin-left: 23vw;
+  margin-top: 5vw;
+  height: 490px;
+  overflow-y: scroll;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 75px;
+  padding-bottom: 140px;
+  padding-top: 60px;
+}
+
+.info {
+  color:rgb(209, 184, 253);
+  font-size: 30px;
+}
+.about-me {
+color:rgb(247, 195, 237);
+}
+
+.projects {
+  color:rgb(248, 213, 194);
+  font-size: 30px;
+  padding-top: 100px;
+
+}
+
+
+/* from W3Schools */
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(84, 128, 165); 
+  background: #2585a273;
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(178, 121, 235); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #25a0a2; 
+}
+
+#pop-up-1 {
+  transition: transform 0.3s ease-in-out;
+}

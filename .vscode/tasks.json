@@ -5,7 +5,7 @@
         "label": "Start Live Server",
         "type": "shell",
         "command": "npx",
-        "args": ["live-server", "--no-browser","public/"],
+        "args": ["live-server", "--no-browser","docs/"],
         "problemMatcher": [],
         "group": {
           "kind": "build",
