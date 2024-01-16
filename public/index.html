@@ -6,21 +6,68 @@
   </head>
   <body>
 
+<!--Got help from chatGPT-->
+  <style>
+        #kirby {
+            pointer-events: none;
+            width: 50px;
+            height: auto;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="kirby">
+        <img id="kirby" src="kirby.png" alt="kirby">
+    </div>
+
+    <script>
+        let kirby = document.querySelector("#kirby");
+        kirby.style.position = "absolute";
+        let body = document.querySelector("body");
+
+        body.addEventListener("mousemove", function (event) {
+            kirby.style.left = event.pageX + "px";
+            kirby.style.top = event.pageY + "px";
+        });
+    </script>
+
     <main>
+
+      <!--Click the title for a suprise!-->
       <section class="screen">
-        <div id="title">
-          <h1>☆Sadie Bush☆</h1>
+        <div class="title">
+          <h1 id="rainbowHeader">☆Sadie Bush☆</h1>
         </div>
 
         <section class="info" id="about-me">
           <h2>𖦹About Me𖦹</h2>
           <div class="about-me">
-            <h2>Hey! I'm Sadie Bush. I am a Junior at IACS with a love for art.</h2>
+            <h1>Hey! I'm Sadie Bush. I am a Junior at IACS with a love for art and videogames. I created this portfolio to showcase my best work from my Web Design class. I hope you enjoy!</h1>
          </div>
 
        <section class="projects" id="cyoa">
-          <h3>My Choose-Your-Own Adventure Project</h3>
-          <p>For example a project could go here...</p>
+          <h2>✿Projects✿</h2>
+          
+          <div>
+            <a href="https://9b5d0bbd-12f3-4943-a3cd-b9ee748806ba-00-18b4915vo5xqq.teams.replit.dev/#all">
+        <img src="css pop up (2).png" alt="Pop Up 1" id="pop up 1">
+            </a>
+          </div>
+
+          <div>
+             <a href="https://homeawayfromhome-sadiebush-2023.netlify.app/">
+        <img src="CYOA pop up (2).png" alt="Pop Up 2" id="pop up 2">
+             </a>
+          </div>
+          
+          <div>
+             <a href="https://bush912.github.io/DinoPebblesImitation/">
+        <img src="dino pop up (2).png" alt="Pop Up 3" id="pop up 3">
+              </a>
+          </div>
+          
       </section>
 
 

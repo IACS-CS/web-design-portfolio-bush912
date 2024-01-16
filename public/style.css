@@ -3,7 +3,7 @@
 
 body {
   width: 95vw;
-  height: 56.25vw;
+  height: 45.25vw;
   background: url(computerbg.png);
   background-size: cover;
   align-items: center;
@@ -20,25 +20,60 @@ body {
   color: #f5f5dc;
   background: none;
   max-width: 1000px;
-  width: 60vw; /* Adjust the width as needed */
-  margin-left: 20vw;
+  width: 57vw; /* Adjust the width as needed */
+  margin-left: 23vw;
   margin-top: 5vw;
-  height: 450px;
+  height: 490px;
   overflow-y: scroll;
+  box-sizing: border-box;
 }
 
-#title {
-  font-size: 60px;
+.title {
+  font-size: 75px;
+  padding-bottom: 140px;
+  padding-top: 60px;
 }
 
 .info {
-  color:rgb(229, 218, 248);
+  color:rgb(209, 184, 253);
+  font-size: 30px;
 }
 .about-me {
 color:rgb(247, 195, 237);
 }
 
 .projects {
-  color:rgb(248, 213, 194)
+  color:rgb(248, 213, 194);
+  padding-top: 100px;
+
 }
 
+
+/* from W3Schools */
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(84, 128, 165); 
+  background: #2585a273;
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(102, 69, 135); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #25a0a2; 
+}
+
+#pop-up-1 {
+  transition: transform 0.3s ease-in-out;
+}
